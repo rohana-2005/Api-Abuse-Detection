@@ -1,0 +1,18 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Environment / Secrets
+.env
+*.env
+
+# Logs
+*.log
