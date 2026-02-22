@@ -127,12 +127,13 @@ export default function Dashboard() {
 
   const blockedCount = data.suspiciousIps?.length || 0;
 
-  const formatTime = (minute: string) => {
+  const formatTime = (value: any): string => {
+    if (!value) return "";
     try {
-      const d = new Date(minute);
+      const d = new Date(String(value));
       return d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
     } catch {
-      return minute;
+      return String(value);
     }
   };
 
