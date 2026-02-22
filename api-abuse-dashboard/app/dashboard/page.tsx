@@ -58,7 +58,7 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   const fetchData = () => {
-    fetch("http://localhost:8080/api/dashboard/summary")
+    fetch("http://13.126.233.32/api/dashboard/summary")
       .then((res) => res.json())
       .then((json) => {
         setData(json);

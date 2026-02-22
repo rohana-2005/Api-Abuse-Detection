@@ -16,3 +16,41 @@ desktop.ini
 
 # Logs
 *.log
+ 
+# Node / frontend
+node_modules/
+/.next/
+/out/
+/build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Java / Maven
+/**/target/
+/.m2/
+*.class
+*.jar
+*.war
+*.ear
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Credentials / keys
+*.pem
+*.key
+application-secret.properties
+
+# Misc
+.DS_Store?
+Thumbs.db
+desktop.ini
+.cache/
+
+# VS Code workspace
+.vscode/
+
