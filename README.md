@@ -24,6 +24,9 @@ Monitor incoming API traffic in real-time to:
 - 📊 View live analytics on a clean dashboard
 - 🛑 Block and manage high-risk IPs
 
+### Dashboard Preview
+![API Abuse Monitoring Dashboard](./image.png)
+
 ---
 
 ## 🌐 Architecture & Deployment
